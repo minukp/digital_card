@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #282d35;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    /* padding: 1rem; */
+}
+li{
+    list-style: disc;
+}
+
+
+/*Buisness Card styles*/
+
+.container-card{
+    width: 550px;
+    height: 868px;
+    margin: 0 auto;
+  
+}
+.card{
+    width: 317px;
+    background-color: #1A1B21;
+    margin:0 auto;   
+    border-radius: 10px 10px 10px 10px;
+}
+.info{
+    text-align: center;
+}
+.info h2{
+    margin: 1rem 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+.info h4{
+    font-size: 12.8px;
+    color: #F3BF99;
+    margin-bottom: 1rem;
+}
+.info p{
+    font-size: 10.4px;
+    color: #F5F5F5;
+}
+.btn-group{
+    margin-top: 0.5rem;
+}
+.btn{
+    display: inline-block;
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.btn-grey{
+    background-color: #D1D5DB;
+    color: #374151;
+}
+.btn-blue{
+    background-color: #5093E2;
+    color: #fff;
+}
+.about,.interests{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+.section-title{
+    font-size: 16px;
+    font-weight: 700px;
+}
+.section-text{
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #dcdcdc;
+    padding-top: 0.5rem;
+}
+footer{
+    height: 64px;
+    background-color: #161619;
+    border-radius:0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > *{
+    padding-right: 0.5rem;
+}
